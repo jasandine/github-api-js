@@ -12,6 +12,7 @@
     <div data-bind="foreach: issues">
       <div class="row"> 
         <div class="col-md-9 title" data-bind="text: title"></div>
+        <div class="col-md-9 created" data-bind="text: moment(created_at).format('MMMM Do YYYY, h:mm:ss a')"></div>
         <div class="col-md-9 state" data-bind="text: state.toUpperCase()"></div>
         <div class="col-md-9 body" data-bind="text: body"></div>
       </div>
