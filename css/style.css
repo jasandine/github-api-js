@@ -1,0 +1,41 @@
+body{
+  background-color: #3d4542;
+}
+
+.row{
+  margin-bottom: 2%;
+  border-radius: 10px;
+  background-color: lightgrey;
+  word-wrap: break-word;  
+}
+
+h1{
+  color: #00a19a !important;
+}
+
+.title{
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+.created{
+  font-weight: bold;
+  padding-bottom: 1%;
+}
+
+.body.col-md-9{
+  padding-bottom: 1%;
+  width: 100%;
+}
+
+.state{
+  padding-bottom: 1%;
+  font-weight: bold
+}
+
+.img-responsive{
+  float: right;
+  padding-right: 3%;
+}
